@@ -12,10 +12,10 @@ module ChatApp
     config.load_defaults 6.0
 
     config.generators do |g|
-      g.stylesheets faise
-      g.javascripts faise
-      g.helper faise
-      g.test_framework faise
+      g.stylesheets false
+      g.javascripts false
+      g.helper false
+      g.test_framework false
     end
 
     # Settings in config/environments/* take precedence over those specified here.
